@@ -49,6 +49,7 @@ private:
     {
         // Liste der Ziele
         std::vector<std::vector<double>> goal_points = {
+            //{goal.pose.position.x, goal.pose.position.y, goal.pose.position.z, goal.pose.orientation.w} 
             {1.0, 0.0, 0.0, 1.0},
             {2.0, 0.0, 0.0, 1.0},
             {3.0, 0.0, 0.0, 1.0},
